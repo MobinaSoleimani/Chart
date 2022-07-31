@@ -65,8 +65,6 @@ useEffect(() => {
                            </div>
                            <div className='mx-4'>
                            <h5 className='text-center pb-2'>Update</h5>
-                           {/* <label>Name:<input type="text" placeholder="Write a new name" value={updateName} onChange={(e) => setUpdateName(e.target.value)}/></label>
-                           <Button variant="info" onClick={()=> updatePost(post)}>Update</Button> */}
                            <Button variant="info" onClick={handleShow}>Update</Button>
                            <Modal show={show} onHide={handleClose} animation={true}>
                            <Modal.Header closeButton>
